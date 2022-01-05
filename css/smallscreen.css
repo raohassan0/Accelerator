@@ -534,6 +534,13 @@
     width: 95%;
     margin-bottom: 20px;
  }
+
+.main-reel-contain-overlay-text>h2{
+    font-size: 8px;
+}
+.main-reel-contain-overlay-text>a{
+    font-size: 10px;
+}
  .newsletter-main{
     flex-direction: column;
  }
