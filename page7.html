@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="icons/fontawesome-pro-5.15.3-web/css/all.css">
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/slick.css">		
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet"  href="css/smallscreen.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Accelerator</title>
+</head>
+<body>
+<div class="navbar">
+	<div class="container top-navbar">
+		<div class="navbar-logo">
+			<img src="images/logo.png">
+		</div>
+		<div class="navbar-rs">
+			<span id="menu"><i class="fas fa-bars"></i></span>
+		<div class="navbar-main">
+			<div class="dropdown">
+				<a href="#" class="active">HOME</a>
+				<div class="dropdown-content" >
+					<a href="">Sample</a>
+					<a href="">Sample</a>
+					<a href="">Sample</a>
+					<a href="">Sample</a>
+				</div>
+			</div>
+			<div class="dropdown">
+			<a href="#">INVENTORY</a>
+				<div class="dropdown-content">
+					<a href="">Sample</a>
+					<a href="">Sample</a>
+					<a href="">Sample</a>
+					<a href="">Sample</a>
+				</div>
+			</div>
+			<div class="dropdown">
+			<a href="#">PAGES</a>
+				<div class="dropdown-content">
+					<a href="">Sample</a>
+					<a href="">Sample</a>
+					<a href="">Sample</a>
+					<a href="">Sample</a>
+				</div>
+			</div>
+			<div class="dropdown">
+			<a href="#">COMPARE</a>
+				<div class="dropdown-content">
+					<a href="">Sample</a>
+					<a href="">Sample</a>
+					<a href="">Sample</a>
+					<a href="">Sample</a>
+				</div>
+			</div>
+			<div class="dropdown">
+			<a href="#">SERVICES</a>
+				<div class="dropdown-content">
+					<a href="">Sample</a>
+					<a href="">Sample</a>
+					<a href="">Sample</a>
+					<a href="">Sample</a>
+				</div>
+			</div>
+			<div class="dropdown">
+			<a href="#">BLOG</a>
+				<div class="dropdown-content">
+					<a href="">Sample</a>
+					<a href="">Sample</a>
+					<a href="">Sample</a>
+					<a href="">Sample</a>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="navbar-links">
+			<a href="#" id=login><i class="fas fa-user-circle"></i>ACCOUNT</a>
+			<div class="full-screen ">
+				<div class="popup animate__animated animate__fadeInDown">
+					<div class="login-popup">
+						<h2>Login to your Account</h2>
+						<form>
+						<input type="text" name="username" placeholder="Your Username">
+						<input type="password" name="password" placeholder="Password">
+						<a href="" class="forgot-password">Forgot Password?</a>
+						<a href="" class="login">LOGIN</a>
+						</form>
+						<h2>Or Try Our Social</h2>
+						<div class="popup-links">
+							<a href="" class="facebook"><i class="fab fa-facebook-square"></i>FACEBOOK</a>
+							<a href="" class="twitter"><i class="fab fa-twitter-square"></i>TWITTER</a>
+							<a href="" class="google"><i class="fab fa-google-plus-square"></i>GOOGLE+</a>
+						</div>
+						<span>Not a member yet?<a href="">Sign-up Now</a></span>
+					</div>
+					<div class="login-popup" style="margin-right:0px">
+						<h2>Login to your Account</h2>
+						<form>
+						<input type="text" name="username" placeholder="Your Username">
+						<input type="text" name="email" placeholder="Your E-mail">
+						<input type="password" name="password" placeholder="Password">
+						<input type="password" name="password" placeholder="Confirm Password">
+						<a href="" class="forgot-password">Forgot Password?</a>
+						<a href="" class="login">REGISTER</a>
+						</form>
+						<h2>Or Sign-Up With Yours Social</h2>
+						<div class="popup-links">
+							<a href="" class="facebook"><i class="fab fa-facebook-square"></i>FACEBOOK</a>
+							<a href="" class="twitter"><i class="fab fa-twitter-square"></i>TWITTER</a>
+							<a href="" class="google"><i class="fab fa-google-plus-square"></i>GOOGLE+</a>
+						</div>
+						<span>Already a member?<a href="">Sign-in Here</a></span>
+					</div>
+					<span>Or</span>
+				</div>
+				<div class="closeBtn"><i class="fal fa-times"></i></div>
+			</div>
+			<a href="#" id="cart"><i class="fas fa-shopping-cart"></i>CART</a>
+			<div class="cart">
+				<div class="cart-content animate__animated animate__fadeInDown ">
+					<p>No items found in your <span>cart</span></p>
+				</div>
+
+			</div>
+			<button class="sell-my-car">SELL MY CAR</button>
+		</div>
+	</div>
+</div>
+<div class="autoplay margin-width">
+ <div class="banner-1">
+	 <div class="container banner-main">
+		<div class="banner-content-1">
+			<h1>Introducing the new</h1>
+			<h2>2016 CHEVY ACCELERATOR</h2>
+			<p>Summer, something beautiful always on the horizon.</p>
+			<a href="">INVENTORY</a>	
+		</div>
+		<div class="banner-table">
+			<div class="banner-table-btn" id="bannerbtn">
+				<span class="form-btn active-banner" id="show">BUY A CAR</span>
+				<span class="form-btn" id="hide">SELL MY CAR</span>
+			</div>
+			<form class="banner-table-main">
+				<div class="banner-table-main-left">
+						<span>Make :</span>
+						<select name="navyOp" onchange="test(this);">
+                           <option selected="selected">All Makes</option>
+                           <option value="AN01">All Makes</option>
+                           <option value="AN02">All Makes</option>
+                           <option value="AN03">All Makes</option>
+                        </select>
+                        <span>Body Type :</span>
+						<select name="navyOp" onchange="test(this);">
+                           <option selected="selected">All Body Types</option>
+                           <option value="AN01">Body Types</option>
+                           <option value="AN02">Body Types</option>
+                           <option value="AN03">Body Types</option>
+                        </select>
+                        <div class="banner-table-main-left-bottom">
+                        	<span>Min Year :
+                        	<input type="textarea" name="min-year"></span>
+                        	<span>Max Year :
+                        	<input type="textarea" name="max-year"></span>
+                        </div>
+				</div>
+				<div class="banner-table-main-right">
+						<span>Model :</span>
+						<select name="navyOp" onchange="test(this);">
+                           <option selected="selected">All Models</option>
+                           <option value="AN01">All Models</option>
+                           <option value="AN02">All Models</option>
+                           <option value="AN03">All Models</option>
+                        </select>
+                        <span>Region :</span>
+						<select name="navyOp" onchange="test(this);">
+                           <option selected="selected">All Regions</option>
+                           <option value="AN01">Regions</option>
+                           <option value="AN02">Regions</option>
+                           <option value="AN03">Regions</option>
+                        </select>
+                        <div class="banner-table-main-right-bottom">
+                        	<span>Min Price :
+                        	<input type="textarea" name="min-price"></span>
+                        	<span>Max Price :
+                        	<input type="textarea" name="max-price"></span>
+                        </div>
+				</div>
+			</form>
+			<div class="banner-table-links">
+				<a href=""><i class="far fa-search"></i>FIND A CAR</a>
+				<div class="banner-table-links-checkbox">
+					<label class="checkbox-container">Certified
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+                    <label class="checkbox-container">Carfax Verified
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+                    <label class="checkbox-container">Brand New
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+				</div>
+			</div>
+		</div>
+	 </div>
+ </div>
+ <div class="banner-2">
+	<div class="container banner-main">
+		<div class="banner-content-2">
+			<h2>YOUR WHEEL ARE</h2>
+			<h1>IN GOOD HANDS</h1>
+			<a href="">CONTACT US</a>	
+		</div>
+		<div class="banner-table" id="bannerbtn">
+			<div class="banner-table-btn">
+				<span class="form-btn">BUY A CAR</span>
+				<span class="form-btn">SELL MY CAR</span>
+			</div>
+			<form class="banner-table-main">
+				<div class="banner-table-main-left">
+						<span>Make :</span>
+						<select name="navyOp" onchange="test(this);">
+                           <option selected="selected">All Makes</option>
+                           <option value="AN01">All Makes</option>
+                           <option value="AN02">All Makes</option>
+                           <option value="AN03">All Makes</option>
+                        </select>
+                        <span>Body Type :</span>
+						<select name="navyOp" onchange="test(this);">
+                           <option selected="selected">All Body Types</option>
+                           <option value="AN01">Body Types</option>
+                           <option value="AN02">Body Types</option>
+                           <option value="AN03">Body Types</option>
+                        </select>
+                        <div class="banner-table-main-left-bottom">
+                        	<span>Min Year :
+                        	<input type="textarea" name="min-year"></span>
+                        	<span>Max Year :
+                        	<input type="textarea" name="max-year"></span>
+                        </div>
+				</div>
+				<div class="banner-table-main-right">
+						<span>Model :</span>
+						<select name="navyOp" onchange="test(this);">
+                           <option selected="selected">All Models</option>
+                           <option value="AN01">All Models</option>
+                           <option value="AN02">All Models</option>
+                           <option value="AN03">All Models</option>
+                        </select>
+                        <span>Region :</span>
+						<select name="navyOp" onchange="test(this);">
+                           <option selected="selected">All Regions</option>
+                           <option value="AN01">Regions</option>
+                           <option value="AN02">Regions</option>
+                           <option value="AN03">Regions</option>
+                        </select>
+                        <div class="banner-table-main-right-bottom">
+                        	<span>Min Price :
+                        	<input type="textarea" name="min-price"></span>
+                        	<span>Max Price :
+                        	<input type="textarea" name="max-price"></span>
+                        </div>
+				</div>
+			</form>
+			<div class="banner-table-links">
+				<a href=""><i class="far fa-search"></i>FIND A CAR</a>
+				<div class="banner-table-links-checkbox">
+					<label class="checkbox-container">Certified
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+                    <label class="checkbox-container">Carfax Verified
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+                    <label class="checkbox-container">Brand New
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+				</div>
+			</div>
+		</div>
+	</div>
+ </div>
+ <div class="banner-3">
+	<div class="container banner-main">
+		<div class="banner-content-3">
+			<h2>FINDING JUST THE</h2>
+			<h1>CAR YOU NEED</h1>
+			<span><i class="fas fa-check-circle"></i>We are working around the clock</span>
+			<span><i class="fas fa-check-circle"></i>Discounts for regular customers</span>
+			<span style="margin-bottom: 40px;"><i class="fas fa-check-circle"></i>Delivery of spare parts</span>
+			<a href="">ABOUT US</a>	
+		</div>
+		<div class="banner-table" id="bannerbtn">
+			<div class="banner-table-btn">
+				<span class="form-btn ">BUY A CAR</span>
+				<span class="form-btn">SELL MY CAR</span>
+			</div>
+			<form class="banner-table-main">
+				<div class="banner-table-main-left">
+						<span>Make :</span>
+						<select name="navyOp" onchange="test(this);">
+                           <option selected="selected">All Makes</option>
+                           <option value="AN01">All Makes</option>
+                           <option value="AN02">All Makes</option>
+                           <option value="AN03">All Makes</option>
+                        </select>
+                        <span>Body Type :</span>
+						<select name="navyOp" onchange="test(this);">
+                           <option selected="selected">All Body Types</option>
+                           <option value="AN01">Body Types</option>
+                           <option value="AN02">Body Types</option>
+                           <option value="AN03">Body Types</option>
+                        </select>
+                        <div class="banner-table-main-left-bottom">
+                        	<span>Min Year :
+                        	<input type="textarea" name="min-year"></span>
+                        	<span>Max Year :
+                        	<input type="textarea" name="max-year"></span>
+                        </div>
+				</div>
+				<div class="banner-table-main-right">
+						<span>Model :</span>
+						<select name="navyOp" onchange="test(this);">
+                           <option selected="selected">All Models</option>
+                           <option value="AN01">All Models</option>
+                           <option value="AN02">All Models</option>
+                           <option value="AN03">All Models</option>
+                        </select>
+                        <span>Region :</span>
+						<select name="navyOp" onchange="test(this);">
+                           <option selected="selected">All Regions</option>
+                           <option value="AN01">Regions</option>
+                           <option value="AN02">Regions</option>
+                           <option value="AN03">Regions</option>
+                        </select>
+                        <div class="banner-table-main-right-bottom">
+                        	<span>Min Price :
+                        	<input type="textarea" name="min-price"></span>
+                        	<span>Max Price :
+                        	<input type="textarea" name="max-price"></span>
+                        </div>
+				</div>
+			</form>
+			<div class="banner-table-links">
+				<a href=""><i class="far fa-search"></i>FIND A CAR</a>
+				<div class="banner-table-links-checkbox">
+					<label class="checkbox-container">Certified
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+                    <label class="checkbox-container">Carfax Verified
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+                    <label class="checkbox-container">Brand New
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+				</div>
+			</div>
+		</div>
+	</div>
+ </div>	
+</div>
+<div class="browse-cars">
+	<div class="container browse-cars-main">
+		<h1>BROWSE CARS BY MAKE</h1>
+		<p>444,337 used cars available nationwide</p>
+		<div class="browse-cars-content">
+			<a href="" class="bcs"><i class="fal fa-long-arrow-right"></i>Abarth<span>(21)</span></a>
+			<a href="" class="bcs"><i class="fal fa-long-arrow-right"></i>Bedfort<span>(2)</span></a>
+			<a href="" class="bcs"><i class="fal fa-long-arrow-right"></i>Dacia<span>(457)</span></a>
+			<a href="" class="bcs"><i class="fal fa-long-arrow-right"></i>Aixam<span>(37)</span></a>
+			<a href="" class="bcs"><i class="fal fa-long-arrow-right"></i>Bentley<span>(56)</span></a>
+			<a href="" class="bcs"><i class="fal fa-long-arrow-right"></i>Daewoo<span>(48)</span></a>
+			<a href="" class="bcs"><i class="fal fa-long-arrow-right"></i>Alfa Romeo<span>(157)</span></a>
+			<a href="" class="bcs"><i class="fal fa-long-arrow-right"></i>BMW<span>(2664)</span></a>
+			<a href="" class="bcs"><i class="fal fa-long-arrow-right"></i>Dodge<span>(286)</span></a>
+			<a href="" class="bcs"><i class="fal fa-long-arrow-right"></i>Asia<span>(3)</span></a>
+			<a href="" class="bcs"><i class="fal fa-long-arrow-right"></i>Bristol<span>(5)</span></a>
+			<a href="" class="bcs"><i class="fal fa-long-arrow-right"></i>Ferrari<span>(290)</span></a>
+			<a href="" class="bcs"><i class="fal fa-long-arrow-right"></i>Aston Martin<span>(177)</span></a>
+			<a href="" class="bcs"><i class="fal fa-long-arrow-right"></i>Buggati<span>(27)</span></a>
+			<a href="" class="bcs"><i class="fal fa-long-arrow-right"></i>Fiat<span>(1045)</span></a>
+			<a href="" class="bcs"><i class="fal fa-long-arrow-right"></i>Audi<span>(264)</span></a>
+			<a href="" class="bcs"><i class="fal fa-long-arrow-right"></i>Cadillac<span>(29)</span></a>
+			<a href="" class="bcs"><i class="fal fa-long-arrow-right"></i>Ford<span>(3875)</span></a>
+			<a href="" class="bcs"><i class="fal fa-long-arrow-right"></i>Austin<span>(10)</span></a>
+			<a href="" class="bcs"><i class="fal fa-long-arrow-right"></i>Chevrolet<span>(45)</span></a>
+			<a href="" class="bcs"><i class="fal fa-long-arrow-right"></i>Honda<span>(309)</span></a>
+		</div>
+		<a href="">SEE ALL CARS</a>
+	</div>
+</div>
+<div class="car-deals margin-width">
+	<div class="container car-deals-main">
+		<h1>THE BEST <b>CARS DEALS</b></h1>
+		<p>See out latest offer on our cars.</p>
+		<div class="nav-car-deals" id="ncd">
+			<span class="nav-car-deals-active-1 nav-car-deals-active" id="cdactive">LATEST CARS</span>
+			<span class="nav-car-deals-active-1" id="cdactive1">MOST POPULAR BRANDS</span>
+			<span class="nav-car-deals-active-1">CHEAPEST CARS</span>
+			<span class="nav-car-deals-active-1">USED CARS</span>
+		</div>
+		<div class="car-deals-content">
+			<div class="car-deals-number">
+				<img src="images/cd1.png">
+				<div class="car-deals-overlay">
+					<span>$29.987</span>
+					<div class="car-deals-overlay-hidden">
+						<h2>2014 mustang Z4 M 630I</h2>
+					<p>Mileage: 25,804 Miles, 3.0L I6, Manual</p>
+					<p>6-Speed, 18 city / 28 hwy, Gasoline</p>
+					</div>
+				</div>
+			</div>
+			<div class="car-deals-number">
+				<img src="images/cd2.png">
+				<div class="car-deals-overlay">
+					<span>$36.547</span>
+					<div class="car-deals-overlay-hidden">
+						<h2>2005 NISSAN MURANO SL</h2>
+					<p>Mileage: 25,804 Miles, 3.0L I6, Manual</p>
+					<p>6-Speed, 18 city / 28 hwy, Gasoline</p>
+					</div>
+				</div>
+			</div>
+			<div class="car-deals-number">
+				<img src="images/cd3.png">
+				<div class="car-deals-overlay">
+					<span>$45.947</span>
+					<div class="car-deals-overlay-hidden">
+						<h2>2016 ferrari A5 589i</h2>
+					<p>Mileage: 25,804 Miles, 3.0L I6, Manual</p>
+					<p>6-Speed, 18 city / 28 hwy, Gasoline</p>
+					</div>
+				</div>
+			</div>
+			<div class="car-deals-number">
+				<img src="images/cd4.png">
+				<div class="car-deals-overlay">
+				<span>$12.987</span>
+				<div class="car-deals-overlay-hidden">
+					<h2>2016 Alfa Romeo 4C Coupe</h2>
+					<p>Mileage: 25,804 Miles, 3.0L I6, Manual</p>
+					<p>6-Speed, 18 city / 28 hwy, Gasoline</p>
+				</div>
+			</div>
+			</div>
+			<div class="car-deals-number">
+				<img src="images/cd5.png">
+				<div class="car-deals-overlay">
+					<span>$34.056</span>
+					<div class="car-deals-overlay-hidden">
+					<h2>2016 Aston Martin DB9</h2>
+					<p>Mileage: 25,804 Miles, 3.0L I6, Manual</p>
+					<p>6-Speed, 18 city / 28 hwy, Gasoline</p>
+				</div>
+				</div>
+			</div>
+			<div class="car-deals-number">
+				<img src="images/cd6.png">
+				<div class="car-deals-overlay">
+					<span>$25.000</span>
+					<div class="car-deals-overlay-hidden">
+					<h2>2015 Audi RS 5 Coupe</h2>
+					<p>Mileage: 25,804 Miles, 3.0L I6, Manual</p>
+					<p>6-Speed, 18 city / 28 hwy, Gasoline</p>
+				</div>
+				</div>
+			</div>
+		</div>
+		<div class="car-deals-content-1" style="display:none">
+			<div class="car-deals-number">
+				<img src="images/cd1.png">
+				<div class="car-deals-overlay">
+					<span>$29.987</span>
+					<div class="car-deals-overlay-hidden">
+						<h2>2014 mustang Z4 M 630I</h2>
+					<p>Mileage: 25,804 Miles, 3.0L I6, Manual</p>
+					<p>6-Speed, 18 city / 28 hwy, Gasoline</p>
+					</div>
+				</div>
+			</div>
+			<div class="car-deals-number">
+				<img src="images/cd2.png">
+				<div class="car-deals-overlay">
+					<span>$36.547</span>
+					<div class="car-deals-overlay-hidden">
+						<h2>2005 NISSAN MURANO SL</h2>
+					<p>Mileage: 25,804 Miles, 3.0L I6, Manual</p>
+					<p>6-Speed, 18 city / 28 hwy, Gasoline</p>
+					</div>
+				</div>
+			</div>
+			<div class="car-deals-number">
+				<img src="images/cd3.png">
+				<div class="car-deals-overlay">
+					<span>$45.947</span>
+					<div class="car-deals-overlay-hidden">
+						<h2>2016 ferrari A5 589i</h2>
+					<p>Mileage: 25,804 Miles, 3.0L I6, Manual</p>
+					<p>6-Speed, 18 city / 28 hwy, Gasoline</p>
+					</div>
+				</div>
+			</div>
+			<div class="car-deals-number">
+				<img src="images/cd4.png">
+				<div class="car-deals-overlay">
+				<span>$12.987</span>
+				<div class="car-deals-overlay-hidden">
+					<h2>2016 Alfa Romeo 4C Coupe</h2>
+					<p>Mileage: 25,804 Miles, 3.0L I6, Manual</p>
+					<p>6-Speed, 18 city / 28 hwy, Gasoline</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="wcu margin-width">
+	<div class="container">
+		<div class="wcu-heading">
+			<h1>WHY <b>CHOOSE US</b>	</h1>
+			<p>Checkout our great advantages.</p>
+		</div>
+		<div class="wcu-main">
+			<div class="wcu-main-left">
+				<h2>Best Car Dealership Ever</h2>
+				<p >Get customer ratings and reviews, cars for sale contact information for local <b>new and used</b> auto dealers. Find new, certified or used car dealers by make, model, credit, or city on Accelerator.</p>
+				<p>See all our dealerships for the <b>most popular</b> vehicles near you.</p>
+				<a href="">READ ABOUT US</a>
+			</div>
+			<div class="wcu-main-right">
+				<div class="wcu-main-right-number-1">
+					<div class="wcu-main-right-icon">
+					 <i class="far fa-anchor"></i>
+					</div>
+					<div class="wcu-main-right-text">
+						<h1>We have huge inventory</h1>
+						<p>It is a long established fact that a reader will be distracted by the readable content of a page when at its layout.</p>
+					</div>
+				</div>
+				<div class="wcu-main-right-number-2">
+					<div class="wcu-main-right-icon">
+					 <i class="far fa-shuttle-van"></i>
+					</div>
+					<div class="wcu-main-right-text">
+						<h1>Drive a car home today</h1>
+						<p>Content here, content here', making it look like readable English. Many desktop publishing packages and web.</p>
+					</div>
+				</div>
+				<div class="wcu-main-right-number-3">
+					<div class="wcu-main-right-icon">
+					 <i class="fal fa-thumbs-up"></i>
+					</div>
+					<div class="wcu-main-right-text">
+						<h1>Great Buying Experience</h1>
+						<p>There are many variations of passages of Lorem Ipsum from available, but the majority have suffered alteration.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="buy-and-sell margin-width">
+	<div class="container buy-and-sell-main">
+		<div class="sell-car">
+			<div class="sell-car-text"><p>WANT TO <span>SELL</span> A CAR?</p></div>
+			<div class="sell-car-btn">
+				<a href=""><i class="fal fa-long-arrow-right"></i></a>
+			</div>
+		</div>
+		<div class="buy-car">
+			<div class="buy-car-text">
+				<p>WANT TO <span>BUY</span> A CAR?</p>
+			</div>
+			<div class="buy-car-btn">
+				<a href=""><i class="fal fa-long-arrow-right"></i></a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="new-cars">
+	<div class="container">
+		<div class="new-cars-heading">
+			<h1>CHECK OUR <b>NEW CARS</b></h1>
+			<p>The best cars are the newest ones.</p>
+		</div>
+		<div class="new-cars-main">
+			<div class="new-cars-number">
+				<div class="new-cars-img">
+					<img src="images/carlist1.png">
+				</div>
+				<div class="new-cars-details">
+					<h1>2018 BMW i8</h1>
+					<div class="new-cars-details-price">
+						<span>$36,900</span>
+						<span class="faded">MSRP $33,000</span>
+						<p><b>Mileage :</b> 25,804 Miles</p>
+					</div>
+					<div class="new-cars-details-specs">
+						<div class="new-cars-details-specs-1">
+							<h4>SPECS</h4>
+							<p>3.0L 16</p>
+							<p>Manual 6-Speed</p>
+							<p>18 city / 36 hwy</p>
+							<p>Gasoline</p>
+						</div>
+						<div class="new-cars-details-highlight">
+							<h4>HIGHLIGHTS</h4>
+							<p>Navigation</p>
+							<p>Audio Controls on Wheels</p>
+							<p>Great Condition</p>
+							<p>Automatic Climate Control</p>
+						</div>
+						<div class="new-cars-details-logo">
+							<img src="images/newcarlogo.png">
+						</div>
+					</div>
+				</div>
+				<div class="new-cars-details-form">
+					<a href="">Compare
+          </a>
+					<a href=""><i class="far fa-heart"></i>Add to Favourite</a>
+					<a href=""><i class="fal fa-calendar-alt"></i>Listed 5 days</a>
+					<a href=""><i class="far fa-binoculars"></i>14 Views</a>
+					<a href=""><i class="far fa-comments"></i>0 Inquiries</a>
+				</div>
+			</div>
+			<div class="new-cars-number">
+				<div class="new-cars-img">
+					<img src="images/carlist2.png">
+				</div>
+				<div class="new-cars-details">
+					<h1>2004 Cheverlote Cuopa Old</h1>
+					<div class="new-cars-details-price">
+						<span>$17,400</span>
+						<span class="faded">MSRP $25,000</span>
+						<p><b>Mileage :</b> 65,804 Miles</p>
+					</div>
+					<div class="new-cars-details-specs">
+						<div class="new-cars-details-specs-1">
+							<h4>SPECS</h4>
+							<p>3.0L 16</p>
+							<p>Manual 6-Speed</p>
+							<p>18 city / 36 hwy</p>
+							<p>Gasoline</p>
+						</div>
+						<div class="new-cars-details-highlight">
+							<h4>HIGHLIGHTS</h4>
+							<p>Navigation</p>
+							<p>Audio Controls on Wheels</p>
+							<p>Great Condition</p>
+							<p>Automatic Climate Control</p>
+						</div>
+						<div class="new-cars-details-logo">
+							<img src="images/newcarlogo.png">
+						</div>
+					</div>
+				</div>
+				<div class="new-cars-details-form">
+					<a href="">Compare
+          </a>
+					<a href=""><i class="far fa-heart"></i>Add to Favourite</a>
+					<a href=""><i class="fal fa-calendar-alt"></i>Listed 5 days</a>
+					<a href=""><i class="far fa-binoculars"></i>14 Views</a>
+					<a href=""><i class="far fa-comments"></i>0 Inquiries</a>
+				</div>
+			</div>
+			<div class="new-cars-number">
+				<div class="new-cars-img">
+					<img src="images/carlist3.png">
+				</div>
+				<div class="new-cars-details">
+					<h1>2014 Ford Ranger Truck</h1>
+					<div class="new-cars-details-price">
+						<span>$24,900</span>
+						<span class="faded">MSRP $29,000</span>
+						<p><b>Mileage :</b> 19,804 Miles</p>
+					</div>
+					<div class="new-cars-details-specs">
+						<div class="new-cars-details-specs-1">
+							<h4>SPECS</h4>
+							<p>3.0L 16</p>
+							<p>Manual 6-Speed</p>
+							<p>18 city / 36 hwy</p>
+							<p>Gasoline</p>
+						</div>
+						<div class="new-cars-details-highlight">
+							<h4>HIGHLIGHTS</h4>
+							<p>Navigation</p>
+							<p>Audio Controls on Wheels</p>
+							<p>Great Condition</p>
+							<p>Automatic Climate Control</p>
+						</div>
+						<div class="new-cars-details-logo">
+							<img src="images/newcarlogo.png">
+						</div>
+					</div>
+				</div>
+				<div class="new-cars-details-form">
+					<a href="">Compare
+          </a>
+					<a href=""><i class="far fa-heart"></i>Add to Favourite</a>
+					<a href=""><i class="fal fa-calendar-alt"></i>Listed 5 days</a>
+					<a href=""><i class="far fa-binoculars"></i>14 Views</a>
+					<a href=""><i class="far fa-comments"></i>0 Inquiries</a>
+				</div>
+			</div>
+			<div class="new-cars-number">
+				<div class="new-cars-img">
+					<img src="images/carlist4.png">
+				</div>
+				<div class="new-cars-details">
+					<h1>2014 Daihatsu Crossover Truck </h1>
+					<div class="new-cars-details-price">
+						<span>$22,900</span>
+						<span class="faded">MSRP $28,000</span>
+						<p><b>Mileage :</b> 11,804 Miles</p>
+					</div>
+					<div class="new-cars-details-specs">
+						<div class="new-cars-details-specs-1">
+							<h4>SPECS</h4>
+							<p>3.0L 16</p>
+							<p>Manual 6-Speed</p>
+							<p>18 city / 36 hwy</p>
+							<p>Gasoline</p>
+						</div>
+						<div class="new-cars-details-highlight">
+							<h4>HIGHLIGHTS</h4>
+							<p>Navigation</p>
+							<p>Audio Controls on Wheels</p>
+							<p>Great Condition</p>
+							<p>Automatic Climate Control</p>
+						</div>
+						<div class="new-cars-details-logo">
+							<img src="images/newcarlogo.png">
+						</div>
+					</div>
+				</div>
+				<div class="new-cars-details-form">
+					<a href="">Compare
+          </a>
+					<a href=""><i class="far fa-heart"></i>Add to Favourite</a>
+					<a href=""><i class="fal fa-calendar-alt"></i>Listed 5 days</a>
+					<a href=""><i class="far fa-binoculars"></i>14 Views</a>
+					<a href=""><i class="far fa-comments"></i>0 Inquiries</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="latest-blog">
+	<div class="container">
+		<div class="latest-blog-heading">
+			<h1>Latest <b>Blog News</b></h1>
+			<p>Check our latest car-related news</p>
+		</div>
+		<div class="latest-blog-main">
+			<div class="latest-blog-number">
+         <div class="latest-blog-img-heading">
+         	<span><i class="fas fa-folder-open"></i>Cars,Motors,Functions</span>
+         	<span><i class="far fa-comments"></i>5 Comments</span>
+         </div>
+         <div class="latest-blog-img">
+         	 <img src="images/lb1.png">
+         	 <div class="latest-blog-img-overlay">
+         	 	  <div class="latest-blog-img-overlay-link">
+         	 	  	<a href="">Read Article</a>
+         	 	  </div>
+         	 </div>
+         </div>
+         <div class="latest-blog-title">
+         	 <div class="latest-blog-title-date">
+         	 	 <h1>10</h1>
+         	 	 <span>MAY</span>
+         	 </div>
+         	 <div class="latest-blog-title-details">
+         	 	 <h1>GET IT FUNCTIONAL RIGHT NOW</h1>
+         	 	 <span>Hyperloop Transportation Technologies plans to a form of passive repulsion technology to make its pods to go cheaper and easier to maintain.</span>
+         	 </div>
+         </div>
+			</div>
+			<div class="latest-blog-number" style="margin-right: 0px;">
+         <div class="latest-blog-img-heading">
+         	<span><i class="fas fa-folder-open"></i>Cars,Motors,Functions</span>
+         	<span><i class="far fa-comments"></i>5 Comments</span>
+         </div>
+         <div class="latest-blog-img">
+         	 <img src="images/lb2.png">
+         	 <div class="latest-blog-img-overlay">
+         	 	  <div class="latest-blog-img-overlay-link">
+         	 	  	<a href="">Read Article</a>
+         	 	  </div>
+         	 </div>
+         </div>
+         <div class="latest-blog-title">
+         	 <div class="latest-blog-title-date">
+         	 	 <h1>09</h1>
+         	 	 <span>MAY</span>
+         	 </div>
+         	 <div class="latest-blog-title-details">
+         	 	 <h1>WE TEACH YOU HOW TO DRIVE</h1>
+         	 	 <span>A study launched by VW and Shell looks to biofuels as a better way to achieve climate goals. Others see it as an attempt to block fuel-economy targets.</span>
+         	 </div>
+         </div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="newsletter">
+	<div class="container newsletter-main">
+		<div class="newsletter-text">
+			<img src="images/mailicon.png">
+			<div class="newsletter-text-1">
+				<h4>Sign up to our newsletter</h4>
+				<p>And recieve our offers on both used and new cars.</p>
+			</div>
+		</div>
+		<div class="newsletter-form">
+			<input type="email" name="email" placeholder="Your e-mail address"><i class="fas fa-paper-plane"></i>
+		</div>
+	</div>
+</div>
+<div class="main-reel autoplay-reel">
+	<div class="main-reel-contain"><img src="images/carimg1.png">
+		<div class="main-reel-contain-overlay">
+			<div class="main-reel-contain-overlay-text">
+			    <h2>1998 Dodge Challenger Sports</h2>
+			    <a href="">VIEW THIS CAR</a>
+		  </div>
+	  </div>
+  </div>
+	<div class="main-reel-contain"><img src="images/carimg2.png">
+    <div class="main-reel-contain-overlay">
+			<div class="main-reel-contain-overlay-text">
+			    <h2>2014 Audi R6 Hatchback</h2>
+			    <a href="">VIEW THIS CAR</a>
+		  </div>
+	  </div>
+	</div>
+	<div class="main-reel-contain"><img src="images/carimg3.png">
+    <div class="main-reel-contain-overlay">
+			<div class="main-reel-contain-overlay-text">
+			    <h2>2015 Honda City Modified</h2>
+			    <a href="">VIEW THIS CAR</a>
+		  </div>
+	  </div>
+	</div>
+	<div class="main-reel-contain"><img src="images/carimg4.png">
+    <div class="main-reel-contain-overlay">
+			<div class="main-reel-contain-overlay-text">
+			    <h2>2016 Dodge Challenger Devil</h2>
+			    <a href="">VIEW THIS CAR</a>
+		  </div>
+	  </div>
+	</div>
+	<div class="main-reel-contain"><img src="images/carimg5.png">
+    <div class="main-reel-contain-overlay">
+			<div class="main-reel-contain-overlay-text">
+			    <h2>2018 BMW i8</h2>
+			    <a href="">VIEW THIS CAR</a>
+		  </div>
+	  </div>
+	</div>
+	<div class="main-reel-contain"><img src="images/carimg6.png">
+    <div class="main-reel-contain-overlay">
+			<div class="main-reel-contain-overlay-text">
+			    <h2>1990 Ford Backstone</h2>
+			    <a href="">VIEW THIS CAR</a>
+		  </div>
+	  </div>
+	</div>
+	<div class="main-reel-contain"><img src="images/carimg1.png">
+		<div class="main-reel-contain-overlay">
+			<div class="main-reel-contain-overlay-text">
+			    <h2>1998 Dodge Challenger Sports</h2>
+			    <a href="">VIEW THIS CAR</a>
+		  </div>
+	  </div>
+  </div>
+	<div class="main-reel-contain"><img src="images/carimg2.png">
+    <div class="main-reel-contain-overlay">
+			<div class="main-reel-contain-overlay-text">
+			    <h2>2014 Audi R6 Hatchback</h2>
+			    <a href="">VIEW THIS CAR</a>
+		  </div>
+	  </div>
+	</div>
+	<div class="main-reel-contain"><img src="images/carimg3.png">
+    <div class="main-reel-contain-overlay">
+			<div class="main-reel-contain-overlay-text">
+			    <h2>2015 Honda City Modified</h2>
+			    <a href="">VIEW THIS CAR</a>
+		  </div>
+	  </div>
+	</div>
+	<div class="main-reel-contain"><img src="images/carimg4.png">
+    <div class="main-reel-contain-overlay">
+			<div class="main-reel-contain-overlay-text">
+			    <h2>2016 Dodge Challenger Devil</h2>
+			    <a href="">VIEW THIS CAR</a>
+		  </div>
+	  </div>
+	</div>
+	<div class="main-reel-contain"><img src="images/carimg5.png">
+    <div class="main-reel-contain-overlay">
+			<div class="main-reel-contain-overlay-text">
+			    <h2>2018 BMW i8</h2>
+			    <a href="">VIEW THIS CAR</a>
+		  </div>
+	  </div>
+	</div>
+	<div class="main-reel-contain"><img src="images/carimg6.png">
+    <div class="main-reel-contain-overlay">
+			<div class="main-reel-contain-overlay-text">
+			    <h2>1990 Ford Backstone</h2>
+			    <a href="">VIEW THIS CAR</a>
+		  </div>
+	  </div>
+	</div>
+</div>
+<div class="footer">
+	<div class="container">
+		<div class="footer-main">
+			<div class="footer-recent-listing">
+				<h1>RECENT LSITING</h1>
+			  <div class="recent-list-number">
+			   	<div class="recent-list-number-img">
+			   		<img src="images/rcl1.png"><div class="recent-list-number-img-overlay"></div>
+			   	</div>
+			   	<div class="recent-list-number-text">
+			   		<h2>2.0L I4, Automatic, Gasoline, FWD 69,175 Miles</h2>
+			   		<a href="">$34.920</a>
+			   	</div>
+			  </div>	
+			  <div class="recent-list-number">
+			   	<div class="recent-list-number-img">
+			   		<img src="images/rcl2.png">
+			   		<div class="recent-list-number-img-overlay"></div>
+			   	</div>
+			   	<div class="recent-list-number-text">
+			   		<h2>3.5L V6, Cvt, 18 city / 23 hwy, Gasoline, FWD, New Tires, Audio Controls</h2>
+			   		<a href="">$34.920</a>
+			   	</div>
+			  </div>
+			  <div class="recent-list-number">
+			   	<div class="recent-list-number-img">
+			   		<img src="images/rcl3.png"><div class="recent-list-number-img-overlay"></div>
+			   	</div>
+			   	<div class="recent-list-number-text">
+			   		<h2>3.5L V6, Cvt, 18 city / 23 hwy, Gasoline, FWD, New Tires, Audio Controls</h2>
+			   		<a href="">$34.920</a>
+			   	</div>
+			  </div>
+			</div>
+			<div class="footer-financing-calculator">
+				<h1>
+					FINANCING CALCULATOR
+				</h1>
+				<form class="financing-calulator-main">
+					<span>Cost Of Vehical ($):<input type="textarea" name="vehical-cost" placeholder="10000"></span>
+					<span>Down Payment:<input type="textarea" name="down-payment" placeholder="1000"></span>
+					<span>Annual Interest Rate (%):<input type="textarea" name="interest-rate" placeholder="7"></span>
+					<span>Term of Loan In Years: <input type="textarea" name="loan-term" placeholder="5"></span>
+					<span>Frequency of Payments: <select>
+						<option selected="selected">Bi-Weekly</option>
+						<option>Bi-Weekly</option>
+						<option>Bi-Weekly</option>
+						<option>Bi-Weekly</option>
+					</select></span>
+				</form>
+				<a href=""><i class="far fa-calculator"></i>CALCULATE</a>
+			</div>
+			<div class="footer-contact-us">
+				<h1>CONTACT US DIRECTLY</h1>
+				<p>Do you have questions? Don’t hesitate to let us know about everything that concerns you:</p>
+				<input type="email" name="email" placeholder="Your E-mail">
+				<textarea placeholder="Your Message"></textarea>
+				<a href="">CONTACT US</a>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<h4>Copyright 2016. All Rights Reserved.</h4>
+		</div>
+	</div> 
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+
+<script type="text/javascript">
+	    		$('.autoplay').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: false,
+  autoplaySpeed: 2000,
+  dots:true,
+  dotsClass:'slick-dots-1',
+  adaptiveHeight:true,
+  arrows:false,
+ });
+
+</script>
+<script type="text/javascript">
+		    		$('.autoplay-reel').slick({
+  slidesToShow: 6,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  dots:false,
+  arrows:false,
+ });
+</script>
+<script type="text/javascript">
+  const btn =
+document.querySelector("#login")
+const searchBox =
+document.querySelector(".full-screen")
+const closeBtn = 
+document.querySelector(".closeBtn")
+  
+  
+closeBtn.addEventListener("click", ()=>{
+    searchBox.style.display = "none"
+})
+  
+btn.addEventListener('click', ()=>{
+    searchBox.style.display = "block"
+})
+</script>
+<script type="text/javascript">
+	(function(){
+ 
+  $("#cart").on("click", function() {
+    $(".cart").fadeToggle( "fast").css('display', 'flex');
+
+  });
+  
+})();
+</script>
+<script>
+  (function(){
+  $("#cdactive").on("click", function() {
+    $(".car-deals-content").fadeToggle( "fast", "linear" ).css('display', 'grid');
+  }); 
+})();
+</script>
+<script type="text/javascript">
+	(function(){
+  $("#cdactive1").on("click", function() {
+
+      $(".car-deals-content-1").fadeToggle("fast", "linear").css('display', 'grid');
+  }); 
+})();
+
+</script>
+<script type="text/javascript">
+	(function(){
+  $("#cdactive1").on("click", function() {
+
+      $(".car-deals-content").fadeToggle("fast", "linear").css('display', 'none');
+  }); 
+})();
+	
+</script>
+<script type="text/javascript">
+		(function(){
+  $("#cdactive").on("click", function() {
+
+      $(".car-deals-content-1").fadeToggle("fast", "linear").css('display', 'grid');
+  }); 
+})();
+
+</script>
+<script type="text/javascript">
+		(function(){
+  $("#menu").on("click", function() {
+
+      $(".navbar-main").fadeToggle("fast", "linear").css('display', 'flex');
+  }); 
+})();
+
+</script>
+<script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("ncd");
+var btns = header.getElementsByClassName("nav-car-deals-active-1");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("nav-car-deals-active");
+  current[0].className = current[0].className.replace(" nav-car-deals-active", "");
+  this.className += " nav-car-deals-active";
+  });
+}
+</script>
+
+<script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("bannerbtn");
+var btns = header.getElementsByClassName("form-btn");
+
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active-banner");
+  current[0].className = current[0].className.replace(" active-banner", "");
+  this.className += " active-banner";
+  });
+}
+</script>
+
+</body>
+</html
